@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteName]">
+  <test name="ScreenTest_Positive(failed)">
+    <classes>
+      <class name="com.tesco.pom.testcases.ScreenTest_Negative_Resize">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Negative_Resize -->
+      <class name="com.tesco.pom.testcases.ScreenTest_Positive">
+        <methods>
+          <include name="quit"/>
+          <include name="doLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Positive -->
+      <class name="com.tesco.pom.testcases.ScreenTest_Negative_AcceptAndCloseDelete">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Negative_AcceptAndCloseDelete -->
+      <class name="com.tesco.pom.testcases.ScreenTest_Positive_Cookies">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Positive_Cookies -->
+    </classes>
+  </test> <!-- ScreenTest_Positive(failed) -->
+  <test name="ScreenTest_Negative_Resize(failed)">
+    <classes>
+      <class name="com.tesco.pom.testcases.ScreenTest_Negative_Resize">
+        <methods>
+          <include name="doLogin" invocation-numbers="0"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Negative_Resize -->
+      <class name="com.tesco.pom.testcases.ScreenTest_Positive">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Positive -->
+      <class name="com.tesco.pom.testcases.ScreenTest_Negative_AcceptAndCloseDelete">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Negative_AcceptAndCloseDelete -->
+      <class name="com.tesco.pom.testcases.ScreenTest_Positive_Cookies">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Positive_Cookies -->
+    </classes>
+  </test> <!-- ScreenTest_Negative_Resize(failed) -->
+  <test name="ScreenTest_Negative_LetterColoring(failed)">
+    <classes>
+      <class name="com.tesco.pom.testcases.ScreenTest_Negative_Resize">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Negative_Resize -->
+      <class name="com.tesco.pom.testcases.ScreenTest_Positive">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Positive -->
+      <class name="com.tesco.pom.testcases.ScreenTest_Negative_AcceptAndCloseDelete">
+        <methods>
+          <include name="doLogin" invocation-numbers="0"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Negative_AcceptAndCloseDelete -->
+      <class name="com.tesco.pom.testcases.ScreenTest_Positive_Cookies">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Positive_Cookies -->
+    </classes>
+  </test> <!-- ScreenTest_Negative_LetterColoring(failed) -->
+  <test name="ScreenTest_Negative_DeleteLabel(failed)">
+    <classes>
+      <class name="com.tesco.pom.testcases.ScreenTest_Negative_Resize">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Negative_Resize -->
+      <class name="com.tesco.pom.testcases.ScreenTest_Positive">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Positive -->
+      <class name="com.tesco.pom.testcases.ScreenTest_Negative_AcceptAndCloseDelete">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Negative_AcceptAndCloseDelete -->
+      <class name="com.tesco.pom.testcases.ScreenTest_Positive_Cookies">
+        <methods>
+          <include name="quit"/>
+          <include name="doLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.tesco.pom.testcases.ScreenTest_Positive_Cookies -->
+    </classes>
+  </test> <!-- ScreenTest_Negative_DeleteLabel(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteName" >
+	
+	<test name="ScreenTest_Positive" allow-return-values="true">
+		<classes>
+			<class name="com.tesco.pom.testcases.ScreenTest_Positive" />
+		</classes>
+	</test>	
+	
+	<test name="ScreenTest_Negative_Resize" allow-return-values="true">
+		<classes>
+			<class name="com.tesco.pom.testcases.ScreenTest_Negative_Resize" />
+		</classes>
+	</test>	
+	
+	<test name="ScreenTest_Negative_LetterColoring" allow-return-values="true">
+		<classes>
+			<class name="com.tesco.pom.testcases.ScreenTest_Negative_AcceptAndCloseDelete" />
+		</classes>
+	</test>	
+	
+	<test name="ScreenTest_Negative_DeleteLabel" allow-return-values="true">
+		<classes>
+			<class name="com.tesco.pom.testcases.ScreenTest_Positive_Cookies" />
+		</classes>
+	</test>	
+</suite>
